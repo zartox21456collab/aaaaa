@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "farmassist",
+  "version": "${version}",
+  "name": "FarmAssist",
+  "description": "Macro de farm + chasse automatique aux pests pour serveur privé (client-side).",
+  "environment": "client",
+  "mixins": ["farmassist.mixins.json"],
+  "entrypoints": {
+    "client": ["dev.farmassist.FarmAssistClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "26.1.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
